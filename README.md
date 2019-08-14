@@ -8,4 +8,4 @@ Here's my **Dev Landing Page** - [Dogukan Ermis - portfolio v1](https://d-ermis.
 
 ## License
 
-MIT © Dogukan Ermis
+MIT © Dogukan Ermised
