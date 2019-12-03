@@ -4,4 +4,4 @@ I wanted a dev landing page to showcase everything I do online and I wanted it t
 
 So I sat down one morning and created this **Dev Landing Page** which is a copy of Dinesh Pandiyan's work.
 
-Here's my **Dev Landing Page** - [Dogukan Ermis - portfolio v1](https://d-ermis.github.io/)
+Here's my **Dev Landing Page** - [Dogukan Ermis - portfolio v1](https://www.ermis.lu/)
