@@ -9634,6 +9634,12 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 3.1rem;
 }
 
+.btn-red {
+  background-color: #d62727;
+  color: #fff;
+  border-color: #d62727;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
