@@ -6,7 +6,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="Personal Website of Dogukan Ermis, Full Stack Developer @ BeCode" />
+    <meta
+      name="description"
+      content="Personal Website of Dogukan Ermis, Full Stack Developer @ BeCode"
+    />
     <meta name="author" content="Dogukan Ermis" />
 
     <title>Dogukan Ermis - Full Stack Developer</title>
@@ -129,7 +132,7 @@
         <!-- Portfolio Grid Items -->
         <div class="row">
           <!-- Portfolio Item 1 -->
-          <div class="col-md-12 col-lg-12">
+          <div class="col-md-6 col-lg-4 mt-4">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
@@ -146,23 +149,68 @@
               </div>
               <img
                 class="img-fluid"
-                src="img/portfolio/dev.gif"
-                alt="Developer GIF"
+                src="img/portfolio/immodHouses.png"
+                alt="IMMOD Logo"
               />
             </div>
+            <h6 class="portfolio-legend">
+              Real Estate Website written in React, Contentful CMS
+            </h6>
           </div>
 
           <!-- Portfolio Item 2 -->
-          <!-- <div class="col-md-6 col-lg-4">
-            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div class="portfolio-item-caption-content text-center text-white">
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal2"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="" />
+              <img
+                class="img-fluid"
+                src="img/portfolio/tvshows.png"
+                alt="TV Shows API"
+              />
             </div>
-          </div> -->
+            <h6 class="portfolio-legend">
+              TV Shows search engine written in React
+            </h6>
+          </div>
+
+          <!-- Portfolio Item 3 -->
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="img/portfolio/graphql.png"
+                alt="IMMOD Logo"
+              />
+            </div>
+            <h6 class="portfolio-legend">
+              Library management API using GraphQL, NodeJS, Express and MongoDB
+            </h6>
+          </div>
         </div>
         <!-- /.row -->
       </div>
@@ -324,7 +372,7 @@
                   <!-- Portfolio Modal - Image -->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="img/portfolio/dev.gif"
+                    src="img/portfolio/immodHouses.png"
                     alt="Developer GIF"
                   />
                   <!-- Portfolio Modal - Text -->
@@ -333,7 +381,7 @@
                     CMS.
                   </h4>
                   <h5>Features</h5>
-                  <ul style="list-style-type: none;">
+                  <ul>
                     <li>
                       <strong>Single-page application</strong> for rapidly
                       searching with no loading screen.
@@ -352,27 +400,31 @@
                       <strong>responsive</strong> experience.
                     </li>
                   </ul>
-                  <a
-                    href="https://immo-d.netlify.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-primary"
-                    ><i class="fas fa-search fa-fw"></i> Demo</a
-                  >
-                  <a
-                    class="btn btn-primary"
-                    href="https://github.com/D-Ermis/immo-react"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fab fa-github fa-fw"></i>
-                    Source Code
-                  </a>
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 mt-4">
+                      <a
+                        href="https://immo-d.netlify.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        ><i class="fas fa-search fa-fw"></i> Demo</a
+                      >
+                      <a
+                        class="btn btn-primary"
+                        href="https://github.com/D-Ermis/immo-react"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fab fa-github fa-fw"></i>
+                        Source Code
+                      </a>
 
-                  <button class="btn btn-red" href="#" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
+                      <button class="btn btn-red" href="#" data-dismiss="modal">
+                        <i class="fas fa-times fa-fw"></i>
+                        Close Window
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -410,7 +462,7 @@
                   <h2
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   >
-                    Tasty Cake
+                    TV Shows Lookup
                   </h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
@@ -423,18 +475,129 @@
                   <!-- Portfolio Modal - Image -->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="img/portfolio/cake.png"
+                    src="img/portfolio/tvshows.png"
                     alt=""
                   />
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <h4 class="mb-5">
+                    A search engine for TV Shows built with React
+                  </h4>
+                  <a
+                    href="https://tvshows-api.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary"
+                    ><i class="fas fa-search fa-fw"></i> Demo</a
+                  >
+                  <a
+                    class="btn btn-primary"
+                    href="https://github.com/D-Ermis/React-TvSeriesList"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-github fa-fw"></i> Source Code
+                  </a>
+
+                  <button class="btn btn-red" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 3 -->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  >
+                    LibraryQL
+                  </h2>
+                  <!-- Icon Divider -->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image -->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="img/portfolio/graphql.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text -->
+                  <h4 class="mb-5">
+                    Library management API using GraphQL, NodeJS, Express and
+                    MongoDB
+                  </h4>
+                  <h5>Features</h5>
+                  <ul>
+                    <li>
+                      User Authentication (JWT)
+                    </li>
+                    <li>
+                      Create, read, update, delete books
+                    </li>
+                    <li>
+                      Create, read, update, delete comments for a specific book
+                    </li>
+                    <li>
+                      A user can borrow up to 5 books, for a month
+                    </li>
+                    <li>
+                      If a book is not returned after the deadline, it will not
+                      be able to borrow a new book until it has returned it
+                    </li>
+                    <li>
+                      Comments Management System (User reviews)
+                    </li>
+                  </ul>
+                  <a
+                    href="https://libraryql.glitch.me/graphql"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary"
+                    ><i class="fas fa-search fa-fw"></i> Demo</a
+                  >
+                  <a
+                    class="btn btn-primary"
+                    href="https://github.com/D-Ermis/library-graphQL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-github fa-fw"></i> Source Code
+                  </a>
+
+                  <button class="btn btn-red" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
                   </button>

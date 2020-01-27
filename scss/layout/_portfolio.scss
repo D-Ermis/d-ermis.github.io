@@ -7,7 +7,8 @@
     display: block;
     max-width: 25rem;
     margin-bottom: 30px;
-    border-radius: $border-radius;
+    // border-radius: $border-radius;
+    border: 2px solid #2c3e50;
     overflow: hidden;
     .portfolio-item-caption {
       position: absolute;
@@ -24,6 +25,10 @@
       }
     }
   }
+}
+
+.portfolio-legend {
+  text-align: center;
 }
 
 // Styling for the portfolio modals
@@ -45,5 +50,9 @@
     line-height: 3rem;
     color: $primary;
     opacity: 1;
+  }
+
+  ul {
+    text-align: left;
   }
 }
